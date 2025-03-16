@@ -1,0 +1,39 @@
+#terms {
+    display: none;
+    margin-top: 10px;
+    text-align: center;
+    max-width: 500px;
+    margin: 10px auto;
+    font-size: 0.5em !important; /* Gunakan !important untuk memastikan aturan ini diterapkan */
+}
+
+.link {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+    text-align: center;
+    display: inline-block;
+    margin: 20px auto;
+    font-size: 0.5em !important; /* Gunakan !important untuk memastikan aturan ini diterapkan */
+}
+
+
+.whatsapp-button {
+            position: fixed;
+            bottom: 100px;
+            right: 15px;
+            width: 50px;
+            height: 50px;
+            background-color: #00FF7F;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+        }
+
+        .whatsapp-button img {
+            width: 40px;
+            height: 40px;
+        }
